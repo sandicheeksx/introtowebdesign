@@ -9,6 +9,9 @@ h1, h2{
   font-style: normal;
   text-transform: uppercase;
 }
+h2 {
+  font-size: 30px;
+}
 body {
   font-family: cormorant-garamond, serif;
   font-weight: 400;
@@ -17,4 +20,7 @@ body {
 }
 img {
   width: 1440px;
+}
+p {
+  text-align: center;
 }
