@@ -19,8 +19,15 @@ body {
   font-size: 20px;
 }
 img {
-  width: 1440px;
+  display; block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 p {
   text-align: center;
+}
+li{
+  display: inline;
+  text-transform: uppercase;
 }
