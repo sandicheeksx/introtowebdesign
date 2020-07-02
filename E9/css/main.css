@@ -1,8 +1,8 @@
 h1 {
   font-family: fairwater-deco-serif, sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
 body {
   font-family: fairwater-open-serif, sans-serif;
@@ -14,12 +14,13 @@ body {
   box=sizing: border-box;
 }
 body {
-  margin: 0;
+  margin: 50px auto;
+  padding: 20px
 }
 /* Layout 1 */
 .board {
   width: 800px;
-  margin: 50px auto;
+  margin: auto;
 }
 .red {
   width: 100px;
@@ -35,29 +36,30 @@ body {
 }
 /* Layout 2 */
 .grid {
-  margin:
+  width: 800px;
+  margin: auto;
 }
 .header {
-  width: 1000px;
+  width: 800px;
   height: 100px;
   background-color: tomato;
   margin:10px;
 }
 .nav {
-  width: 1000px;
+  width: 800px;
   height: 20px;
   background-color: tomato;
   margin: 10px;
 }
 .content {
-  width: 320px;
-  height: 700px;
+  width: 250px;
+  height: 500px;
   background-color: tomato;
   margin: 10px;
   float: left;
 }
 .footer {
-  width: 1000px;
+  width: 800px;
   height: 100px;
   background-color: tomato;
   margin: 10px;
@@ -65,10 +67,10 @@ body {
 /* Layout 3 */
 .blog {
   width: 800px;
-  margin: 50px;
+  margin: auto;
 }
 .header1 {
-  width: 900px;
+  width: 800px;
   height: 200px;
   background-color: tomato;
   margin: 50px;
