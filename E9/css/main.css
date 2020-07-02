@@ -1,9 +1,22 @@
+h1 {
+  font-family: fairwater-deco-serif, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+}
+body {
+  font-family: fairwater-open-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
 *{
   box=sizing: border-box;
 }
 body {
   margin: 0;
 }
+/* Layout 1 */
 .board {
   width: 800px;
   margin: 50px auto;
@@ -19,4 +32,62 @@ body {
   height: 100px;
   background-color: black;
   float: left;
+}
+/* Layout 2 */
+.grid {
+  margin:
+}
+.header {
+  width: 1000px;
+  height: 100px;
+  background-color: tomato;
+  margin:10px;
+}
+.nav {
+  width: 1000px;
+  height: 20px;
+  background-color: tomato;
+  margin: 10px;
+}
+.content {
+  width: 320px;
+  height: 700px;
+  background-color: tomato;
+  margin: 10px;
+  float: left;
+}
+.footer {
+  width: 1000px;
+  height: 100px;
+  background-color: tomato;
+  margin: 10px;
+}
+/* Layout 3 */
+.blog {
+  width: 800px;
+  margin: 50px;
+}
+.header1 {
+  width: 900px;
+  height: 200px;
+  background-color: tomato;
+  margin: 50px;
+}
+.rec {
+  width: 600px;
+  height: 400px;
+  background-color: tomato;
+  margin: 50px;
+}
+.rec2 {
+  width: 190px;
+  height: 250px;
+  background-color: tomato;
+  margin: 50px;
+}
+.footer1 {
+  width: 600px;
+  height: 70px;
+  background-color: tomato;
+  margin: 50px;
 }
