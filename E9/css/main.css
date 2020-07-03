@@ -13,10 +13,12 @@ body {
 *{
   box=sizing: border-box;
 }
-body {
+
+/* body {
   margin: 50px auto;
   padding: 20px
-}
+} */
+
 /* Layout 1 */
 .board {
   width: 800px;
@@ -34,36 +36,59 @@ body {
   background-color: black;
   float: left;
 }
+
+
+
+
+
 /* Layout 2 */
 .grid {
   width: 800px;
   margin: auto;
+  display: flow-root;
 }
 .header {
   width: 800px;
   height: 100px;
   background-color: tomato;
-  margin:10px;
+  margin: auto;
 }
 .nav {
   width: 800px;
   height: 20px;
   background-color: tomato;
-  margin: 10px;
+  margin: 10px auto;
 }
 .content {
   width: 250px;
   height: 500px;
   background-color: tomato;
-  margin: 10px;
+  margin: 8px;
+}
+.content {
   float: left;
 }
 .footer {
   width: 800px;
   height: 100px;
   background-color: tomato;
-  margin: 10px;
+  margin: 10px auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Layout 3 */
 .blog {
   width: 800px;
