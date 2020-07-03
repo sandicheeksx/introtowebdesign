@@ -102,3 +102,56 @@ body {
 .rec, .rec2, .footer1 {
   float: left;
 }
+
+/* Tennis court */
+.court {
+  width: 820px;
+  margin: auto;
+  display: flow-root;
+}
+.left1 {
+  width: 150px;
+  height: 350px;
+  background-color: tomato;
+  margin-left: 0px;
+  margin-right: 10px;
+  float: left;
+}
+.middletop {
+  width: 500px;
+  height: 100px;
+  background-color: tomato;
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+}
+.square1 {
+  width: 240px;
+  height: 240px;
+  background-color: blue;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+.square2 {
+  width: 240px;
+  height: 240px;
+  background-color: green;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+.right1 {
+  width: 150px;
+  height: 350px;
+  background-color: orange;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  float: left;
+}
