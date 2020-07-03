@@ -11,7 +11,7 @@ body {
   font-size: 20px;
 }
 *{
-  box=sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* body {
@@ -36,11 +36,6 @@ body {
   background-color: black;
   float: left;
 }
-
-
-
-
-
 /* Layout 2 */
 .grid {
   width: 800px;
@@ -59,13 +54,12 @@ body {
   background-color: tomato;
   margin: 10px auto;
 }
-.content {
-  width: 250px;
+.column {
+  width: 241.6px;
   height: 500px;
   background-color: tomato;
-  margin: 8px;
-}
-.content {
+  margin-left: 12px;
+  margin-right: 12px;
   float: left;
 }
 .footer {
@@ -74,47 +68,37 @@ body {
   background-color: tomato;
   margin: 10px auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Layout 3 */
 .blog {
   width: 800px;
   margin: auto;
+  display: flow-root;
 }
 .header1 {
   width: 800px;
   height: 200px;
   background-color: tomato;
-  margin: 50px;
+  margin: 10px 0px 75px 0px
 }
 .rec {
-  width: 600px;
+  width: 580px;
   height: 400px;
   background-color: tomato;
-  margin: 50px;
+  margin: 30px 0px 8px 0px;
+
 }
 .rec2 {
-  width: 190px;
-  height: 250px;
+  width: 205px;
+  height: 220px;
   background-color: tomato;
-  margin: 50px;
+  margin: 30px 0px 0px 8px;
 }
 .footer1 {
-  width: 600px;
-  height: 70px;
+  width: 580px;
+  height: 50px;
   background-color: tomato;
-  margin: 50px;
+  margin: 0px 0px 45px 0px;
+}
+.rec, .rec2, .footer1 {
+  float: left;
 }
