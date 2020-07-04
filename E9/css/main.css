@@ -214,3 +214,153 @@ body {
 .bottom {
   float: left;
 }
+.cali {
+  width: 1500px;
+  margin: auto;
+  display: flow-root;
+}
+.block{
+  width: 75px;
+  height: 125px;
+  background-color: lightcoral;
+  border:  2px solid black;
+}
+.first{
+  float: left;
+}
+.block1{
+  width: 75px;
+  height: 250px;
+  background-color: green;
+  border:  2px solid black;
+  float: ;
+}
+.block11{
+  width: 75px;
+  height: 250px;
+  background-color: green;
+  border:  2px solid black;
+  float: left;
+}
+.second{
+  float: left;
+}
+.block2{
+  width: 75px;
+  height: 125px;
+  background-color: blue;
+  border:  2px solid black;
+  float: left;
+}
+.block3{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 125px;
+}
+.block4{
+  width: 150px;
+  height: 250px;
+  background-color: gold;
+  border:  2px solid black;
+  margin-top: 0px;
+}
+.block5{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 0px;
+}
+.third, .fourth, .fifth, .sixth, .seventh, .eighth, .ninth, .tenth {
+  float: left;
+}
+.block6{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 125px;
+}
+.block7{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 0px;
+}
+.block8{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 0px;
+}
+.largest {
+  width: 150px;
+  height: 375px;
+  background-color: lightcoral;
+  border: 2px solid black;
+  float: left;
+}
+.block9{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 375px;
+}
+.block10{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 0px;
+}
+.leftcolumn, {
+  float: left;
+}
+.middlecolumn{
+  float: left;
+}
+.block12{
+  width: 150px;
+  height: 250px;
+  background-color: pink;
+  border:  2px solid black;
+  margin-top: 250px;
+}
+.block13{
+  width: 75px;
+  height: 125px;
+  background-color: lightcoral;
+  border:  2px solid black;
+}
+.block14{
+  width: 75px;
+  height: 250px;
+  background-color: green;
+  border:  2px solid black;
+  float: ;
+}
+.block15{
+  width: 75px;
+  height: 125px;
+  background-color: lightcoral;
+  border:  2px solid black;
+}
+.block16{
+  width: 75px;
+  height: 250px;
+  background-color: green;
+  border:  2px solid black;
+  float: ;
+}
+.block17{
+  width: 75px;
+  height: 125px;
+  background-color: lightcoral;
+  border:  2px solid black;
+  float: left;
+}
