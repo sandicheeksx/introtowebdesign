@@ -214,153 +214,107 @@ body {
 .bottom {
   float: left;
 }
+
+
 .cali {
-  width: 1500px;
+  width: 1900px;
   margin: auto;
   display: flow-root;
 }
-.block{
+
+.leftsection {
+  float: left;
+  border: 15px solid black;
+  border-right: 0;
+}
+.middlesection {
+  float: left;
+  border: 15px solid black;
+
+}
+.rightsection {
+  width: 615px;
+  border: 15px solid black;
+  border-left: 0;
+  float: left;
+}
+.firstcolumn {
+  width: 75px;
+  float: left;
+}
+.secondcolumn {
+  width: 75px;
+  float: left;
+}
+.thirdcolumn {
+  width: 150px;
+  float: left;
+}
+.fourthcolumn {
+  width: 150px;
+  float: left;
+}
+.fifthcolumn {
+  width: 150px;
+  float: left;
+}
+.sixthcolumn {
+  width: 150px;
+  float: left;
+}
+.seventhcolumn {
+  width: 150px;
+  float: left;
+}
+.eighthcolumn {
+  width: 75px;
+  float: left;
+}
+.ninthcolumn {
+  width: 75px;
+  float: left;
+}
+.tenthcolumn {
+  width: 150px;
+  float: left;
+}
+.onebyone{
   width: 75px;
   height: 125px;
-  background-color: lightcoral;
+  background-color: tomato;
   border:  2px solid black;
 }
-.first{
-  float: left;
-}
-.block1{
+.onebytwo{
   width: 75px;
   height: 250px;
-  background-color: green;
+  background-color: tomato;
   border:  2px solid black;
-  float: ;
 }
-.block11{
-  width: 75px;
-  height: 250px;
-  background-color: green;
-  border:  2px solid black;
-  float: left;
-}
-.second{
-  float: left;
-}
-.block2{
+.onebyone1{
   width: 75px;
   height: 125px;
-  background-color: blue;
+  background-color: tomato;
   border:  2px solid black;
   float: left;
 }
-.block3{
+.twobytwo{
   width: 150px;
   height: 250px;
-  background-color: pink;
+  background-color: tomato;
   border:  2px solid black;
-  margin-top: 125px;
-}
-.block4{
-  width: 150px;
-  height: 250px;
-  background-color: gold;
-  border:  2px solid black;
-  margin-top: 0px;
-}
-.block5{
-  width: 150px;
-  height: 250px;
-  background-color: pink;
-  border:  2px solid black;
-  margin-top: 0px;
-}
-.third, .fourth, .fifth, .sixth, .seventh, .eighth, .ninth, .tenth {
   float: left;
 }
-.block6{
-  width: 150px;
-  height: 250px;
-  background-color: pink;
-  border:  2px solid black;
-  margin-top: 125px;
-}
-.block7{
-  width: 150px;
-  height: 250px;
-  background-color: pink;
-  border:  2px solid black;
-  margin-top: 0px;
-}
-.block8{
-  width: 150px;
-  height: 250px;
-  background-color: pink;
-  border:  2px solid black;
-  margin-top: 0px;
-}
-.largest {
+.twobythree {
   width: 150px;
   height: 375px;
-  background-color: lightcoral;
+  background-color: tomato;
   border: 2px solid black;
   float: left;
 }
-.block9{
-  width: 150px;
-  height: 250px;
-  background-color: pink;
-  border:  2px solid black;
-  margin-top: 375px;
-}
-.block10{
-  width: 150px;
-  height: 250px;
-  background-color: pink;
-  border:  2px solid black;
-  margin-top: 0px;
-}
-.leftcolumn, {
-  float: left;
-}
-.middlecolumn{
-  float: left;
-}
-.block12{
-  width: 150px;
-  height: 250px;
-  background-color: pink;
-  border:  2px solid black;
-  margin-top: 250px;
-}
-.block13{
-  width: 75px;
-  height: 125px;
-  background-color: lightcoral;
-  border:  2px solid black;
-}
-.block14{
+.onebytwo1{
   width: 75px;
   height: 250px;
-  background-color: green;
-  border:  2px solid black;
-  float: ;
-}
-.block15{
-  width: 75px;
-  height: 125px;
-  background-color: lightcoral;
-  border:  2px solid black;
-}
-.block16{
-  width: 75px;
-  height: 250px;
-  background-color: green;
-  border:  2px solid black;
-  float: ;
-}
-.block17{
-  width: 75px;
-  height: 125px;
-  background-color: lightcoral;
+  background-color: tomato;
   border:  2px solid black;
   float: left;
 }
