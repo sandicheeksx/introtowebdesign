@@ -25,9 +25,122 @@ img {
   width: 100%;
 }
 p {
-  text-align: center;
+  text-align: left;
 }
 li{
   display: inline;
   text-transform: uppercase;
+}
+.logo {
+  width: 73px;
+  height: 38px;
+  background-image: url('../images/logos.png');
+  align-content: center;
+  margin: 0 auto;
+}
+.footer {
+  margin: 0 auto;
+  text-align: center;
+}
+.boat {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.bridge {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.library {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.railway {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.palace {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.church {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.rivera{
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.bridges{
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.train {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.tarts {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.lellolibrary {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.igrejachurch {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.clerigoschurch {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.majestic {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.road {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.cable {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
+}
+.paparico {
+  width: 70%;
+  height: 70%;
+  align-content: center;
+  margin: 0 auto;
 }

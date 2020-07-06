@@ -27,3 +27,10 @@ li{
   display: inline;
   text-transform: uppercase;
 }
+.logo {
+  width: 73px;
+  height: 38px;
+  background-image: url('images/logos.png');
+  align-content: center;
+  margin: 0 auto;
+}
