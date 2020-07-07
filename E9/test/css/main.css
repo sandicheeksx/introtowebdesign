@@ -1,9 +1,9 @@
 .diagram {
   width: 525px;
-  margin: 15px auto;
+  margin: 50px auto;
 }
-.topleft {
-  width: 350px;
+.leftgroup {
+  width: 375px;
   float: left;
 }
 .onebyone {
@@ -11,7 +11,7 @@
   height: 100px;
   margin-right: 25px;
   float: left;
-  background-color: red;
+  background-color: purple;
 }
 .twobyone {
   width: 225px;
@@ -19,33 +19,38 @@
   margin-right: 25px;
   margin-top: 25px;
   float: left;
-  background-color: coral;
-}
-.twobyone {
-  width: 225px;
-  height: 100px;
-  margin-right: 25px;
-  float: left;
-  background-color: coral;
+  background-color: purple;
 }
 .onebyone1 {
   width: 100px;
   height: 100px;
-  margin-top:25px;
-  margin-bottom: ;
+  margin-top: 25px;
+  margin-right: 25px;
   float: left;
-  background-color: blue;
+  background-color: purple;
 }
 .onebyone2 {
   width: 100px;
   height: 100px;
   margin-top: 25px;
+  margin-right: 25px;
   float: left;
-  background-color: green;
+  background-color: purple;
+}
+.twobyone1 {
+  width: 225px;
+  height: 100px;
+  margin-right: 25px;
+  margin-top: 25px;
+  float: left;
+  background-color: purple;
+}
+.rightcolumn {
+  float: left;
 }
 .onebytwo {
   width: 100px;
   height: 225px;
-  float: left;
-  background-color: pink;
+  margin-bottom: 25px;
+  background-color: purple;
 }
