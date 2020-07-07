@@ -1,0 +1,51 @@
+.diagram {
+  width: 525px;
+  margin: 15px auto;
+}
+.topleft {
+  width: 350px;
+  float: left;
+}
+.onebyone {
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+  float: left;
+  background-color: red;
+}
+.twobyone {
+  width: 225px;
+  height: 100px;
+  margin-right: 25px;
+  margin-top: 25px;
+  float: left;
+  background-color: coral;
+}
+.twobyone {
+  width: 225px;
+  height: 100px;
+  margin-right: 25px;
+  float: left;
+  background-color: coral;
+}
+.onebyone1 {
+  width: 100px;
+  height: 100px;
+  margin-top:25px;
+  margin-bottom: ;
+  float: left;
+  background-color: blue;
+}
+.onebyone2 {
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  float: left;
+  background-color: green;
+}
+.onebytwo {
+  width: 100px;
+  height: 225px;
+  float: left;
+  background-color: pink;
+}
