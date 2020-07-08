@@ -2,6 +2,9 @@
   background-color: salmon;
   margin: 0;
   }
+  h1 {
+    font size: 320px
+  }
   /* media query */
   @media screen and (max-width: 1500px) {
     body {
