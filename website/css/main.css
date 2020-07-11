@@ -30,15 +30,15 @@ li{
   margin-right: 20px;
 }
 
-a { text-decoration: none; color:white;
+a:link, a:visited, a:active {
+  color:white;
+  text-decoration: none;
 }
-a:visited { text-decoration: red;
+a:focus {
+  text-decoration: none;
 }
-a:hover { text-decoration: gray;
-}
-a:focus { text-decoration: none;
-}
-a:hover, a:active { text-decoration: gray;
+a:hover {
+  text-decoration: gray;
 }
 
 .pageheader {
