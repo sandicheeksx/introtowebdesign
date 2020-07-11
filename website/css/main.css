@@ -55,17 +55,71 @@ a:hover {
 }
 
 .hometext {
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
   margin: 30px 30px 50px;
 }
 
+footer {
+  text-align: center;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+  @media screen and (max-width: 850px) {
+    .pageheader {
+      font-size: 50px;
+    }
+
+  @media screen and (max-width: 550px) {
+    .pageheader {
+      font-size: 45px;
+    }
+
+
+  @media screen and (max-width: 500px) {
+    .pageheader {
+      font-size: 40px;
+      text-align: center;
+    }
+    li {
+      font-size: 18px;
+      margin-right: 10px;
+      text-align: center;
+    }
 
 
 
+  @media screen and (max-width: 450px) {
+    .pageheader {
+      font-size: 35px;
+    }
 
 
 
+  @media screen and (max-width: 320px) {
+    .pageheader {
+      font-size: 26px;
+      text-align: center;
+    }
+    .HomeImage {
+      padding: 20px;
+      height: 250px;
+    }
+    }
+    li {
+      font-size: 14px;
+      margin-right: 5px;
+      text-align: center;
+    }
+    .hometext {
+      font-size: 16px;
+      margin: 20px 50px;
+    }
+    .footer {
+      font-size: 14px;
+    }
 
 
 
@@ -74,10 +128,10 @@ a:hover {
   height: 38px;
   background-image: url('../images/logos.png');
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .footer {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -85,101 +139,101 @@ a:hover {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .bridge {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .library {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .railway {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .palace {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .church {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .rivera{
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .bridges{
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .train {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .tarts {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .lellolibrary {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .igrejachurch {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .clerigoschurch {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .majestic {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .road {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .cable {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
 .paparico {
   width: 70%;
   height: 70%;
   align-content: center;
-  margin: 0 auto;
+  margin: auto;
 }
