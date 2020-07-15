@@ -1,0 +1,53 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: inline-inline-block;
+    max-width: 100%;
+    text-align: center;
+  }
+  .leftcontrol {
+    width: 130px;
+    height: 400px;
+    background-color: #00c3e3;
+    border-radius: 45px 0px 0px 45px;
+    border: 5px solid #0F92A8;
+    float: left;
+  }
+  .screen {
+    width: 725px;
+    height: 400px;
+    background-color: #2E2E2E;
+    border-radius: 20px 20px 0px 0px;
+    border: 15px solid black;
+    float: left;
+  }
+  .rightcontrol {
+    width: 130px;
+    height: 400px;
+    background-color: #ff4554;
+    border-radius: 0 45px 45px 0;
+    border: 5px solid #B61623;
+    float: left;
+  }
+  .leftjoystick {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 5px solid #2E2E2E;
+    position: relative;
+    top: 130px;
+    left: 35px;
+  }
+  .minusbutton {
+    width: 25px;
+    height: 8px;
+    border-radius: 5%;
+    background-color: #2E2E2E;
+    position: relative;
+    top: 30px;
+    left: 85px;
+  }
