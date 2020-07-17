@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: gray;
   }
   body {
     width: 985px;
     margin: 130px;
     margin-left: auto;
     margin-right: auto;
+    background-color: gray;
   }
   .leftcontrol {
     width: 130px;
@@ -161,6 +161,15 @@
     position: relative;
     top: 35px;
     left: 38px;
+    animation: pulse 5s infinite;
+  }
+  @keyframes pulse {
+    0% {
+    background-color: #EAE4E3;
+    }
+    100% {
+    background-color: #2E2E2E;
+    }
   }
   .speakerleft {
     width: 25px;
@@ -188,8 +197,8 @@
   .tri {
     width: 0;
     height: 0;
-    border-left: 20px solid #EAE4E3;
-    border-right: 20px solid #EAE4E3;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
     border-bottom: 30px solid yellow;
     position: absolute;
     top: 0px;
@@ -198,8 +207,8 @@
   .tri1 {
     width: 0;
     height: 0;
-    border-left: 20px solid #EAE4E3;
-    border-right: 20px solid #EAE4E3;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
     border-bottom: 30px solid yellow;
     position: absolute;
     top: 30px;
@@ -208,8 +217,8 @@
   .tri2 {
     width: 0;
     height: 0;
-    border-left: 20px solid #EAE4E3;
-    border-right: 20px solid #EAE4E3;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
     border-bottom: 30px solid yellow;
     position: absolute;
     top: 30px;
