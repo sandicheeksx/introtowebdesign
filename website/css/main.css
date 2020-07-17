@@ -18,6 +18,7 @@
     font-size: 30px;
   }
   body {
+    margin: 0 0 10px 0;
     font-family: cormorant-garamond, serif;
     font-weight: 400;
     font-style: normal;
@@ -36,6 +37,14 @@
     color: gray;
   }
 
+  .sights, .about, .twentyfourhours {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    max-width: 100%;
+  }
   .pageheader {
     color: white;
     font-size: 45px;
@@ -48,16 +57,21 @@
     background-size: cover;
     background-position: center;
   }
-
-  .text {
+  #hometext {
     font-size: 20px;
     text-align: center;
     width: 75vw;
     margin: 30px auto 50px;
   }
-
+  .text {
+    font-size: 20px;
+    text-align: left;
+    width: 75vw;
+    margin: 30px auto 50px;
+  }
   footer {
     text-align: center;
+    font-size: 18px;
   }
   .logo {
     margin-left: auto;
@@ -70,121 +84,16 @@
     align-content: center;
     margin: auto;
   }
-  .footer {
-    margin: auto;
-    text-align: center;
-  }
-
-  .boat {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .bridge {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .library {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .railway {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .palace {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .church {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .rivera{
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .bridges{
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .train {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .tarts {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .lellolibrary {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .igrejachurch {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .clerigoschurch {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .majestic {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .road {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .cable {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
-  .paparico {
-    width: 70%;
-    height: 70%;
-    align-content: center;
-    margin: auto;
-  }
   @media screen and (max-width: 850px) {
     .pageheader {
       font-size: 50px;
     }
+  }
   @media screen and (max-width: 550px) {
     .pageheader {
       font-size: 45px;
     }
+  }
   @media screen and (max-width: 500px) {
     .pageheader {
       font-size: 40px;
@@ -198,6 +107,7 @@
     .pageheader {
       font-size: 35px;
     }
+  }
   @media screen and (max-width: 320px) {
     .pageheader {
       font-size: 26px;
@@ -215,6 +125,6 @@
       font-size: 16px;
       margin: 20px 50px;
     }
-    .footer {
-      font-size: 14px;
+    footer {
+
     }
