@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: gray;
   }
   body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    width: 985px;
+    margin: 130px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .leftcontrol {
     width: 130px;
@@ -15,6 +16,7 @@
     background-color: #00c3e3;
     border-radius: 45px 0px 0px 45px;
     border: 5px solid #0F92A8;
+    position: relative;
     float: left;
   }
   .screenbezel {
@@ -23,6 +25,7 @@
     background-color: #2E2E2E;
     border-radius: 20px 20px 0px 0px;
     border: 15px solid black;
+    position: relative;
     float: left;
   }
   .rightcontrol {
@@ -31,6 +34,7 @@
     background-color: #ff4554;
     border-radius: 0 45px 45px 0;
     border: 5px solid #B61623;
+    position: relative;
     float: left;
   }
   .leftjoystick {
@@ -39,17 +43,17 @@
     border-radius: 50%;
     background-color: gray;
     border: 5px solid #2E2E2E;
-    position: relative;
-    top: 130px;
-    left: 35px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
   }
   .minusbutton {
     width: 25px;
     height: 8px;
     border-radius: 10%;
     background-color: #2E2E2E;
-    position: relative;
-    top: 30px;
+    position: absolute;
+    top: 25px;
     left: 85px;
   }
   .cbutton {
@@ -58,9 +62,9 @@
     border-radius: 50%;
     background-color: gray;
     border: 3px solid #2E2E2E;
-    position: relative;
-    top: 160px;
-    left: 52px;
+    position: absolute;
+    top: 155px;
+    left: 46px;
   }
   .cbuttonUP {
     width: 0;
@@ -68,9 +72,9 @@
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 12px solid #2E2E2E;
-    position: relative;
-    top: 138px;
-    left: 60px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
   }
   .cbutton1 {
     width: 30px;
@@ -78,9 +82,9 @@
     border-radius: 50%;
     background-color: gray;
     border: 3px solid #2E2E2E;
-    position: relative;
-    top: 180px;
-    left: 52px;
+    position: absolute;
+    top: 213px;
+    left: 46px;
   }
   .cbuttonDOWN {
     width: 0;
@@ -88,9 +92,9 @@
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-top: 12px solid #2E2E2E;
-    position: relative;
-    top: 160px;
-    left: 60px;
+    position: absolute;
+    top: 7px;
+    left: 5px;
   }
   .cbutton2 {
     width: 30px;
@@ -98,9 +102,9 @@
     border-radius: 50%;
     background-color: gray;
     border: 3px solid #2E2E2E;
-    position: relative;
-    top: 107px;
-    left: 20px;
+    position: absolute;
+    top: 184px;
+    left: 15px;
   }
   .cbuttonLEFT {
     width: 0;
@@ -108,9 +112,9 @@
     border-top: 7px solid transparent;
     border-right: 12px solid #2E2E2E;
     border-bottom: 7px solid transparent;
-    position: relative;
-    top: 85px;
-    left: 27px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
   }
   .cbutton3 {
     width: 30px;
@@ -118,9 +122,9 @@
     border-radius: 50%;
     background-color: gray;
     border: 3px solid #2E2E2E;
-    position: relative;
-    top: 63px;
-    left: 84px;
+    position: absolute;
+    top: 184px;
+    left: 77px;
   }
   .cbuttonRIGHT {
     width: 0;
@@ -128,42 +132,217 @@
     border-top: 7px solid transparent;
     border-left: 12px solid #2E2E2E;
     border-bottom: 7px solid transparent;
-    position: relative;
-    top: 41px;
-    left: 95px;
+    position: absolute;
+    top: 5px;
+    left: 7px;
   }
   .screenshot {
     width: 25px;
     height: 25px;
     background-color: gray;
     border: 3px solid #2E2E2E;
-    position: relative;
-    top: 95px;
-    left: 80px;
+    position: absolute;
+    top: 260px;
+    left: 70px;
   }
   .screenshotcircle {
     width: 15px;
     height: 15px;
     background-color: #2E2E2E;
     border-radius: 50%;
-    position: relative;
-    top: 75px;
-    left: 85px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
   }
   .mainscreen {
     width: 620px;
     height: 300px;
-    background-color: gray;
+    background-color: #EAE4E3;
     position: relative;
-    top: -170px;
-    left: 180px;
+    top: 35px;
+    left: 38px;
+  }
+  .speakerleft {
+    width: 25px;
+    height: 7px;
+    border-radius: 10%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 37px;
+  }
+  .speakerright {
+    width: 25px;
+    height: 7px;
+    border-radius: 10%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 37px;
+  }
+  .triforce {
+    position: absolute;
+    top: 130px;
+    left: 332px;
+  }
+  .tri {
+    width: 0;
+    height: 0;
+    border-left: 20px solid #EAE4E3;
+    border-right: 20px solid #EAE4E3;
+    border-bottom: 30px solid yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .tri1 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid #EAE4E3;
+    border-right: 20px solid #EAE4E3;
+    border-bottom: 30px solid yellow;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+  .tri2 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid #EAE4E3;
+    border-right: 20px solid #EAE4E3;
+    border-bottom: 30px solid yellow;
+    position: absolute;
+    top: 30px;
+    right: -20px;
   }
   .plusbutton {
     width: 25px;
     height: 7px;
     border-radius: 10%;
     background-color: #2E2E2E;
-    position: relative;
-    top: 0px;
-    right: 0px;
+    position: absolute;
+    top: 25px;
+    right: 85px;
+  }
+  .plusbutton1 {
+    width: 7px;
+    height: 25px;
+    border-radius: 10%;
+    background-color: #2E2E2E;
+    position: absolute;
+    top: 16px;
+    left: 19px;
+  }
+  .xbutton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 3px solid #2E2E2E;
+    position: absolute;
+    top: 52px;
+    left: 46px;
+  }
+  .x {
+    font-family: gaultier,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    background-color: #2E2E2E;
+    position: absolute;
+    top: 1px;
+    left: 7px;
+  }
+  .bbutton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 3px solid #2E2E2E;
+    position: absolute;
+    top: 110px;
+    left: 46px;
+  }
+  .b {
+    font-family: gaultier,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    background-color: #2E2E2E;
+    position: absolute;
+    top: 1px;
+    left: 7px;
+  }
+  .ybutton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 3px solid #2E2E2E;
+    position: absolute;
+    top: 82px;
+    left: 15px;
+  }
+  .y {
+    font-family: gaultier,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    background-color: #2E2E2E;
+    position: absolute;
+    top: 2px;
+    left: 7px;
+  }
+  .abutton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 3px solid #2E2E2E;
+    position: absolute;
+    top: 82px;
+    right: 14px;
+  }
+  .a {
+    font-family: gaultier,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    background-color: #2E2E2E;
+    position: absolute;
+    top: 1px;
+    left: 7px;
+  }
+  .rightjoystick {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 5px solid #2E2E2E;
+    position: absolute;
+    top: 165px;
+    left: 30px;
+  }
+  .homebutton {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 3px solid gray;
+    position: absolute;
+    top: 260px;
+    left: 25px;
+  }
+  .home {
+    width: 15px;
+    height: 15px;
+    background-color: #2E2E2E;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
   }
