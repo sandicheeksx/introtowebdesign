@@ -30,6 +30,7 @@
   }
   p {
     margin-bottom: 25px;
+    margin-top: 10px;
   }
   li{
     display: inline;
@@ -59,6 +60,8 @@
   img {
     max-width: 100%;
     margin-bottom: 10px;
+    padding: 10px ;
+    border: 1px solid black;
   }
   .pageheader {
     color: white;
@@ -86,7 +89,30 @@
     margin: 30px auto 50px;
   }
   .boat {
-    margin-top: 45px;
+    margin-top: 30px;
+  }
+  .stairs, .book{
+    width: 550px;
+    float: left;
+  }
+  .stairs {
+    margin-right: 30px;
+    transform: rotate(-5deg);
+  }
+  .book {
+    transform: rotate(5deg);
+  }
+  .riverabuilding, .riveroverlook {
+    width: 550px;
+    float: left;
+  }
+  .riverabuilding {
+    margin-right: 35px;
+    transform: rotate(-5deg);
+  }
+  .riveroverlook {
+    transform: rotate(5deg);
+
   }
   section {
     margin-top: 50px;
