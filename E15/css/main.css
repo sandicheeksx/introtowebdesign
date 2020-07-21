@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 100;
+  box-sizing: border-box;
+}
+  h1 {
+  font-family: fairwater-deco-serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+  header {
+  color: #FFF;
+  background-color: mediumturquoise;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+  body {
+    width: 1000px;
+    font-family: fairwater-open-serif, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  a:link, a:visited, a:active {
+    color:black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: mediumturquoise;
