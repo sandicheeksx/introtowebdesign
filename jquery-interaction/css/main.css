@@ -1,0 +1,18 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: lightgray;
+  }
+  main {
+    margin: 100px 0;
+  }
+  .photos {
+    width: 60vw;
+    margin: 0 auto 100px;
+  }
+  img {
+    max-width: 100%;
+  }

@@ -91,6 +91,39 @@
   .boat {
     margin-top: 30px;
   }
+  .stairs {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .clear {
+    display: flow-root;
+  }
+  .rivera {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .eggs {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .library {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .church{
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .cafe {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
   section {
     margin-top: 50px;
   }
