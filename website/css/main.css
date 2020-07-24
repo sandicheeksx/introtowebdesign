@@ -88,41 +88,123 @@
     width: 75vw;
     margin: 30px auto 50px;
   }
+  /* about page */
   .boat {
     margin-top: 30px;
   }
-  .stairs {
+  /* sights pages */
+  .stairs1, .stairs2 {
     width: 35vw;
     float: left;
     margin: 15px;
+  }
+  .stairs1 {
+    transform: rotate(-2deg);
+  }
+  .stairs2 {
+    transform: rotate(2deg);
+  }
+  .rivera1, .rivera2 {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .rivera1 {
+    transform: rotate(-2deg);
+  }
+  .rivera2 {
+    transform: rotate(2deg);
+  }
+  /* 24 pages */
+  .emptybridge, .closebridge, .engrave {
+    width: 35vw;
+    float: left;
+    margin: 18px;
+  }
+  .emptybridge {
+    transform: rotate(-2deg);
+  }
+  .closebridge {
+    transform: rotate(3deg);
+  }
+  .engrave {
+    transform: rotate(2deg);
+  }
+  .engrave {
+    margin-top: 5px;
+  }
+  .trainwalls, .tiles {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .trainwalls {
+    transform: rotate(-2deg);
+  }
+  .tiles {
+    margin-top: 130px;
+    transform: rotate(2deg);
+  }
+  .eggs1, .eggs2 {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .eggs1 {
+    transform: rotate(-2deg);
+  }
+  .eggs2 {
+    transform: rotate(2deg);
+  }
+  .library1, .library2 {
+    width: 35vw;
+    float: left;
+    margin: 17px;
+  }
+  .library1 {
+    transform: rotate(-2deg);
+  }
+  .library2 {
+    transform: rotate(2deg);
+  }
+  .church1, .church2{
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .church1 {
+    transform: rotate(-2deg);
+  }
+  .church2 {
+    transform: rotate(2deg);
+  }
+  .cafe1, .cafe2 {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .cafe1 {
+    transform: rotate(-2deg);
+  }
+  .cafe2 {
+    transform: rotate(2deg);
+  }
+  .dessertbox, .menu, .apps {
+    width: 35vw;
+    float: left;
+    margin: 15px;
+  }
+  .dessertbox {
+    transform: rotate(-2deg);
+  }
+  .menu {
+    transform: rotate(3deg);
+  }
+  .apps {
+    transform: rotate(2deg);
   }
   .clear {
     display: flow-root;
-  }
-  .rivera {
-    width: 35vw;
-    float: left;
-    margin: 15px;
-  }
-  .eggs {
-    width: 35vw;
-    float: left;
-    margin: 15px;
-  }
-  .library {
-    width: 35vw;
-    float: left;
-    margin: 15px;
-  }
-  .church{
-    width: 35vw;
-    float: left;
-    margin: 15px;
-  }
-  .cafe {
-    width: 35vw;
-    float: left;
-    margin: 15px;
   }
   section {
     margin-top: 50px;
