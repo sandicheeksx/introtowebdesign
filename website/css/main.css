@@ -122,13 +122,13 @@
     margin: 18px;
   }
   .emptybridge {
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
   }
   .closebridge {
-    transform: rotate(3deg);
+    transform: rotate(2deg);
   }
   .engrave {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
   .engrave {
     margin-top: 5px;
@@ -139,11 +139,11 @@
     margin: 15px;
   }
   .trainwalls {
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
   }
   .tiles {
     margin-top: 130px;
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
   .eggs1, .eggs2 {
     width: 35vw;
@@ -162,10 +162,10 @@
     margin: 17px;
   }
   .library1 {
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
   }
   .library2 {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
   .church1, .church2{
     width: 35vw;
@@ -173,10 +173,10 @@
     margin: 15px;
   }
   .church1 {
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
   }
   .church2 {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
   .cafe1, .cafe2 {
     width: 35vw;
@@ -195,13 +195,13 @@
     margin: 15px;
   }
   .dessertbox {
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
   }
   .menu {
-    transform: rotate(3deg);
+    transform: rotate(2deg);
   }
   .apps {
-    transform: rotate(2deg);
+    transform: rotate(1deg);
   }
   .clear {
     display: flow-root;
